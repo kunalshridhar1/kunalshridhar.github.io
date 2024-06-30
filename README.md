@@ -43,3 +43,11 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    git clone https://github.com/kunalshridhar/kunalshridhar.github.io.git
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+    kunalshridhar.github.io
+3. **Open in Browser**
+
+Open `index.html` in your preferred browser to view the portfolio.
