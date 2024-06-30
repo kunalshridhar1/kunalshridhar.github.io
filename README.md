@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! This is a showcase of my projects, skills, and experience, beautifully crafted using modern web technologies.
 
-![Portfolio Preview](./images/portfolio-preview.png)
+
 
 ---
 
