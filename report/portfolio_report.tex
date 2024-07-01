@@ -1,0 +1,141 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{lipsum} % For sample text
+
+% Geometry settings
+\geometry{a4paper, margin=1in}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Kunal Shridhar}}
+\fancyhead[C]{\textbf{Computer Science Portfolio Report}}
+\fancyhead[R]{\textbf{\thepage}}
+
+% Section Formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Listings settings
+\lstset{basicstyle=\ttfamily, columns=fullflexible, breaklines=true}
+
+\begin{document}
+
+% Title Page
+\title{Computer Science Portfolio Report}
+\author{Kunal Shridhar \\ \href{mailto:kunalshridhar5@gmail.com}{kunalshridhar5@gmail.com}}
+\date{\today}
+\maketitle
+\begin{center}
+    \includegraphics[width=0.6\textwidth]{images/portfolio-preview.jpeg}
+\end{center}
+\newpage
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Introduction
+\section{Introduction}
+The purpose of this report is to give brief insights to my computer science portfolio project I designed while applying for a working student position. The portfolio, accessible at \url{https://kunalshridhar1.github.io/kunalshridhar.github.io/}, , is a clean and professional web presence that features my skills in creatively presented portfolios, projects, and experiences hosted on GitHub Pages. The following report contains the description of the work and ideas of the portfolio website, the visual layout and organization of the site, the GitHub repo, the applied technologies, and the assessment of the project’s advantages and disadvantages.
+
+% Portfolio Website Overview
+\section{Portfolio Website Overview}
+\subsection{Description}
+The portfolio website serves as a digital resume, designed to highlight my academic background, technical skills, and key projects. It aims to provide potential employers and collaborators with a clear and professional presentation of my capabilities and experiences.
+
+\subsection{Structure}
+The portfolio is organized into several key sections:The portfolio is organized into several key sections:
+\begin{itemize}
+\item \textbf{Home}: An introduction as to who I am, and what I like to do in my free time.
+\item \textbf{Projects}: An introduction of the main elements of the application, summaries and images of the four chosen projects with an explanation of the applied technologies and a link to the corresponding GitHub project.
+\item \textbf{Resume}: My resume which I update to include relevant information on my education, skills, and work experience; in a downloadable format.
+\item \textbf{Contact}: An application or contact form that will allow the visitor or potential client leave a message directly.
+\end{itemize}
+The site layout is one-page design with the navigation based on scrolling; no sharp breaks or jumps between the sections.
+
+% GitHub Repository Overview
+\section{GitHub Repository Overview}
+\subsection{Structure}
+The repository hosting the portfolio website is available at \url{https://kunalshridhar1.github.io/kunalshridhar.github.io/} It includes the following structure:It includes the following structure:
+\begin{itemize}
+\item \textbf{index.html}: It should be noted that the www folder of the website contains only markup files in HTML format and data files ; there is no actual code other than in the main.html file, which is considered the starting point of the website.
+\item \textbf{css/}: Holds the styles of the site in files that can be created and modified by the user.
+\item \textbf{js/}: It includes JavaScrip files for enhancement of functionality and interaction of the website with the user.
+\item \textbf{images/}: Caching images used in any of the sections in the website.
+\item \textbf{docs/}: Contains my resume.
+\item \textbf{README.md}: Explains how to set up the project as well as giving brief information about the appearing website.
+\end{itemize}
+
+\subsection{Contents}
+The repository contains all the necessary files for the site functionality and styling, combined with a detailed documentation for easier installation and deployment of the website. The `README.md` file is highly descriptive, the steps that are outlined here are those of cloning the repository, running install and the deployment of the site.
+
+% Design Decisions
+\section{Design Decisions}
+\subsection{Choices Made}
+The design of the portfolio was guided by several key decisions:The design of the portfolio was guided by several key decisions:
+\begin{itemize}
+\item \textbf{Single-Page Layout}: Selected from amongst all the options because the/basic design that allows to put all the necessary information on the page.
+\item \textbf{Bootstrap Framework}: Used for the ability to enable responsive design and the possibility to use ready-made components in the application’s development process.
+\item \textbf{Custom CSS Enhancements}: Added to bring a fresh look to the site, as well as making it somewhat different from the typical Google site, which fits into the style of my blog.
+\item \textbf{GitHub Pages Hosting}: Chosen because it runs natively on GitHub repositories and is also easy to deploy.
+\end{itemize}
+
+\subsection{Rationale}
+The decisions were all directed at achieving a positive value portfolio that is easy to use and is immensely pleasing to the eyes. The layout is limited to a single page, which makes all the information easy to find without the need to go through multiple sections, while Bootstrap guarantees a clean and, at the same time, a responsive design. To remove the generic look of Bootstrap templates, customization in CSS was incorporated to alter its appearance. The decision to host on GitHub Pages was made due to the good practices deployment and the ability to have version control.
+
+% Tools and Technologies
+\section{Tools and Technologies}
+\subsection{Tools Used}
+\begin{itemize}
+\item \textbf{HTML5}: In regard to the organization of contents of the website.
+\item \textbf{CSS3}: For styling includes, styling the contents, layout features and custom style to improve the looks of the content.
+\item \textbf{JavaScript/jQuery}: For input or incorporating user’s inputs and other dynamic features.
+\item \textbf{Bootstrap}: For the theoretical paradigm selection and ready-to-use elements of a responsive design concept.
+\item \textbf{Git/GitHub}: To manage the source codes of the project and as a place to host the project.
+\item \textbf{LaTeX}: For writing this project report, I ensure that it is professionally written and arranged appropriately.
+\end{itemize}
+
+\subsection{Benefits}
+These tools offered a strong ground to build up the consecutive stages of the portfolio with a survey of granting quick and easy prototype and cross-platform compatibility. Bootstrap’s, the use of a generic grid technique making it easier and shortening the amount of time required to create the site The final and deciding touch of CSS, jQuery enabled Bootstrap’s pre-built components gave the site the required functionality and the BootSnipp logo made it uniquely ours. For version control, GitHub was used and the simple and straight forward deployment was done using GitHub Pages.
+
+% Strengths and Weaknesses
+\section{Strengths and Weaknesses}
+\subsection{Strengths}
+\begin{itemize}
+\item \textbf{User-Friendly Design}: The above portfolio has good and easy to follow layout with little interference of the design on the user accessibility of information.
+\item \textbf{Responsive Layout}: Overall, the site looks good on two devices, namely the desktop and the mobile device, which means site usability is not a problem.
+\item \textbf{Comprehensive Documentation}: The Git repository contains a lot of comments explaing all the files and how to use the project.
+\end{itemize}
+
+\subsection{Weaknesses}
+\begin{itemize}
+\item \textbf{Limited Interactivity}: Despite the fact that the website is already informative and functional, herein there is a possibility to apply more animations or more interactive project demonstrations.
+\item \textbf{Performance Optimization}: It is, however, possible to optimize the site even more with more focus on such areas as the images used and script used in the page to increase the efficiency of the page loading.
+\item \textbf{Browser Compatibility}: When doing cross-browser testing the below findings were made; All in all, it was observed that the site has slight differences in the way it is displayed in the different browsers and this is a sign that more cross browser testing needs to be done and changes made.
+\end{itemize}
+
+% Conclusion
+\section{Conclusion}
+In this portfolio project, I have come a long way in presenting my skills and projects in a structured and user-friendly manner. When it comes to the development and build process, sensitive attention has been paid where tools and technologies have been chosen which result in a slick, top-tier web application; further by building up a thoroughly documented web-application, all the documents are hosted at GitHub. In the future, I will add more interactive capabilities to the site and work on further improvements of its effectiveness. These suggestions prove this project to be useful as a resource on web development and portfolio organization.
+
+% References
+\section{References}
+\begin{itemize}
+    \item GitHub Documentation: \url{https://docs.github.com/}
+    \item Bootstrap Documentation: \url{https://getbootstrap.com/docs/}
+    \item LaTeX Documentation: \url{https://www.latex-project.org/help/documentation/}
+    \item jQuery Documentation: \url{https://api.jquery.com/}
+    \item FontAwesome Documentation: \url{https://fontawesome.com/v5.15/how-to-use/on-the-web}
+\end{itemize}
+
+\end{document}
