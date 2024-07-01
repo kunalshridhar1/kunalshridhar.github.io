@@ -51,3 +51,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 3. **Open in Browser**
 
 Open `index.html` in your preferred browser to view the portfolio.
+
+## 📄 Project Report
+
+The LaTeX project report detailing the portfolio development is available in the `report` directory:
+
+- [View the LaTeX Source](report/portfolio-report.tex)
+- [View the PDF Report](report/portfolio-report.pdf)
